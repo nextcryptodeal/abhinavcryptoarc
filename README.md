@@ -7,3 +7,5 @@ windows users install ubuntu (WSL) on your PC using this guide
 copy and paste command at each step
 
 step 1: install foundry
+curl -L https://foundry.paradigm.xyz | bash
+foundryup
