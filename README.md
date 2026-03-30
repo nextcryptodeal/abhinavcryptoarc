@@ -9,3 +9,5 @@ copy and paste command at each step
 step 1: install foundry
 curl -L https://foundry.paradigm.xyz | bash
 foundryup
+
+step 2: initialize project
