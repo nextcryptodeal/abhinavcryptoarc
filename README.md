@@ -11,3 +11,5 @@ curl -L https://foundry.paradigm.xyz | bash
 foundryup
 
 step 2: initialize project
+forge init arc-deploy
+cd arc-deploy
