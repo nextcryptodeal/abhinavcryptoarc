@@ -15,3 +15,25 @@ forge init arc-deploy
 cd arc-deploy
 
 step 3: create your contract
+touch src/HelloArc.sol
+
+paste this inside 👇
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+contract HelloArc {
+    string public greeting;
+
+    constructor(string memory _greeting) {
+        greeting = _greeting;
+    }
+
+    function setGreeting(string memory _greeting) public {
+        greeting = _greeting;
+    }
+
+    function getGreeting() public view returns (string memory) {
+        return greeting;
+    }
+}
