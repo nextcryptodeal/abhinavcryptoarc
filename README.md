@@ -37,3 +37,6 @@ contract HelloArc {
         return greeting;
     }
 }
+step 4: compile
+
+compile with the command: forge build
